@@ -1,16 +1,16 @@
 {
-  "name": "transprime-research/package-name",
-  "description": "PHP package-name",
+  "name": "transprime-research/configured",
+  "description": "Laravel configuration values in OOP way",
   "license": "MIT",
   "keywords": [
     "php",
     "Helpers",
     "Laravel"
   ],
-  "homepage": "https://transprime-research.github.io/package-name/",
+  "homepage": "https://transprime-research.github.io/configured/",
   "support": {
-    "issues": "https://github.com/transprime-research/package-name/issues",
-    "source": "https://github.com/transprime-research/package-name/issues"
+    "issues": "https://github.com/transprime-research/configured/issues",
+    "source": "https://github.com/transprime-research/configured/issues"
   },
   "authors": [
     {
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Transprime\\Package\\": "src"
+      "Transprime\\Configured\\": "src"
     },
     "files": [
       "Helpers/helpers.php"
@@ -34,7 +34,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Transprime\\Package\\Tests\\": "tests/"
+      "Transprime\\Configured\\Tests\\": "tests/"
     }
   }
 }

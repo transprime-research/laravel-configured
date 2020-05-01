@@ -1,10 +1,10 @@
 <?php
 
-namespace Transprime\Package;
+namespace Transprime\Configured;
 
-use Transprime\Package\Exceptions\PackageException;
+use Transprime\Configured\Exceptions\ConfiguredException;
 
-class Package
+class Configured
 {
 
 }

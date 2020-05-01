@@ -1,11 +1,11 @@
-# Package
+## About Configured
 
 This works this way
 > Do it Like a PRO :ok:
 
 ## Installation
 
-- `composer require transprime-research/package-name`
+- `composer require transprime-research/configured`
 
 ## Quick Usage
 Use it like this...

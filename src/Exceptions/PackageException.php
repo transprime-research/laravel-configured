@@ -1,8 +1,8 @@
 <?php
 
-namespace Transprime\Package\Exceptions;
+namespace Transprime\Configured\Exceptions;
 
-class PackageException extends \Exception
+class ConfiguredException extends \Exception
 {
 
 }

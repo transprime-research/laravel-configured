@@ -1,14 +1,15 @@
 <?php
 
-use Transprime\Package\Package;
+use Transprime\Configured\Configured;
 
-if (! function_exists('package')) {
+if (! function_exists('configured')) {
     /**
-     * New up a Package
+     * New up a Configured
      *
-     * @return Package
+     * @param $data
+     * @return Configured
      */
-    function package() {
-        return new Package();
+    function configured($data) {
+        return new Configured($data);
     }
 }

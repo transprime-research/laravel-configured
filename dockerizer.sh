@@ -10,4 +10,4 @@ fi
 
 docker-compose up -d --remove-orphans
 
-docker-compose exec package composer install
+docker-compose exec configured composer install

@@ -1,23 +1,23 @@
 version: "3"
 
 services:
-  package:
+  configured:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: package
+    container_name: configured
     restart: unless-stopped
     tty: true
     working_dir: /var/www/html
     environment:
       SERVICE_TAGS: dev
-      SERVICE_NAME: package
+      SERVICE_NAME: configured
     volumes:
       - ./:/var/www/html
     networks:
-      - package-network
+      - configured-network
 
 #Docker Networks
 networks:
-  package-network:
+  configured-network:
     driver: bridge

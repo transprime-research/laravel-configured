@@ -1,14 +1,14 @@
 <?php
 
-namespace Transprime\Package\Tests;
+namespace Transprime\Configured\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Transprime\Package\{Package, Exceptions\PackageException};
+use Transprime\Configured\{Configured, Exceptions\ConfiguredException};
 
-class PackageTest extends TestCase
+class ConfiguredTest extends TestCase
 {
-    public function testPackageIsCreated()
+    public function testConfiguredIsCreated()
     {
-        $this->assertIsObject(new Package());
+        $this->assertIsObject(new Configured());
     }
 }
